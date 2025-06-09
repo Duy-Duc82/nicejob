@@ -1,0 +1,658 @@
+[
+  {
+    "_id": "680fddcd99cf12d46fede7d9",
+    "name": "Login user",
+    "apiPath": "/api/v1/auth/login",
+    "method": "POST",
+    "module": "AUTH",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.681Z",
+    "updatedAt": "2025-04-28T19:58:05.682Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7da",
+    "name": "Register a new user",
+    "apiPath": "/api/v1/auth/register",
+    "method": "POST",
+    "module": "AUTH",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.682Z",
+    "updatedAt": "2025-04-28T19:58:05.682Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7db",
+    "name": "get user info",
+    "apiPath": "/api/v1/auth/account",
+    "method": "GET",
+    "module": "AUTH",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.682Z",
+    "updatedAt": "2025-04-28T19:58:05.682Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7dc",
+    "name": "get user info by refresh token",
+    "apiPath": "/api/v1/auth/refresh",
+    "method": "GET",
+    "module": "AUTH",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.682Z",
+    "updatedAt": "2025-04-28T19:58:05.682Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7dd",
+    "name": "Logout user",
+    "apiPath": "/api/v1/auth/logout",
+    "method": "POST",
+    "module": "AUTH",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.682Z",
+    "updatedAt": "2025-04-28T19:58:05.682Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7de",
+    "name": "Created a new company",
+    "apiPath": "/api/v1/companies",
+    "method": "POST",
+    "module": "COMPANIES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.683Z",
+    "updatedAt": "2025-04-28T19:58:05.683Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7df",
+    "name": "Fetching all companies with pagination",
+    "apiPath": "/api/v1/companies",
+    "method": "GET",
+    "module": "COMPANIES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.683Z",
+    "updatedAt": "2025-04-28T19:58:05.683Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7e0",
+    "name": "Get company by id",
+    "apiPath": "/api/v1/companies/:id",
+    "method": "GET",
+    "module": "COMPANIES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.683Z",
+    "updatedAt": "2025-04-28T19:58:05.683Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7e1",
+    "name": "Update company info",
+    "apiPath": "/api/v1/companies/:id",
+    "method": "PATCH",
+    "module": "COMPANIES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.683Z",
+    "updatedAt": "2025-04-28T19:58:05.683Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7e2",
+    "name": "Delete company by id",
+    "apiPath": "/api/v1/companies/:id",
+    "method": "DELETE",
+    "module": "COMPANIES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.683Z",
+    "updatedAt": "2025-04-28T19:58:05.683Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7e3",
+    "name": "Upload a file",
+    "apiPath": "/api/v1/files/upload",
+    "method": "POST",
+    "module": "FILES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.685Z",
+    "updatedAt": "2025-04-28T19:58:05.685Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7e4",
+    "name": "Get all files",
+    "apiPath": "/api/v1/files",
+    "method": "GET",
+    "module": "FILES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.685Z",
+    "updatedAt": "2025-04-28T19:58:05.685Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7e5",
+    "name": "Get a file by id",
+    "apiPath": "/api/v1/files/:id",
+    "method": "GET",
+    "module": "FILES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.685Z",
+    "updatedAt": "2025-04-28T19:58:05.685Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7e6",
+    "name": "Update a file by id",
+    "apiPath": "/api/v1/files/:id",
+    "method": "PATCH",
+    "module": "FILES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.685Z",
+    "updatedAt": "2025-04-28T19:58:05.685Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7e7",
+    "name": "Delete a file by id",
+    "apiPath": "/api/v1/files/:id",
+    "method": "DELETE",
+    "module": "FILES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.685Z",
+    "updatedAt": "2025-04-28T19:58:05.685Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7e8",
+    "name": "Create a new job",
+    "apiPath": "/api/v1/jobs",
+    "method": "POST",
+    "module": "JOBS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.686Z",
+    "updatedAt": "2025-04-28T19:58:05.686Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7e9",
+    "name": "Fetching all job with pagination",
+    "apiPath": "/api/v1/jobs",
+    "method": "GET",
+    "module": "JOBS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.686Z",
+    "updatedAt": "2025-04-28T19:58:05.686Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7ea",
+    "name": "Get job by id",
+    "apiPath": "/api/v1/jobs/:id",
+    "method": "GET",
+    "module": "JOBS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.686Z",
+    "updatedAt": "2025-04-28T19:58:05.686Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7eb",
+    "name": "Update user info",
+    "apiPath": "/api/v1/jobs/:id",
+    "method": "PATCH",
+    "module": "JOBS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.686Z",
+    "updatedAt": "2025-04-28T19:58:05.686Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7ec",
+    "name": "Delete job by id",
+    "apiPath": "/api/v1/jobs/:id",
+    "method": "DELETE",
+    "module": "JOBS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.686Z",
+    "updatedAt": "2025-04-28T19:58:05.686Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7ed",
+    "name": "Permission created successfully",
+    "apiPath": "/api/v1/permissions",
+    "method": "POST",
+    "module": "PERMISSIONS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.686Z",
+    "updatedAt": "2025-04-28T19:58:05.686Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7ee",
+    "name": "Fetching all permission with pagination",
+    "apiPath": "/api/v1/permissions",
+    "method": "GET",
+    "module": "PERMISSIONS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.686Z",
+    "updatedAt": "2025-04-28T19:58:05.686Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7ef",
+    "name": "Get permisson by id",
+    "apiPath": "/api/v1/permissions/:id",
+    "method": "GET",
+    "module": "PERMISSIONS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.686Z",
+    "updatedAt": "2025-04-28T19:58:05.686Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7f0",
+    "name": "Update permission by id",
+    "apiPath": "/api/v1/permissions/:id",
+    "method": "PATCH",
+    "module": "PERMISSIONS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.686Z",
+    "updatedAt": "2025-04-28T19:58:05.686Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7f1",
+    "name": "Delete permission by id",
+    "apiPath": "/api/v1/permissions/:id",
+    "method": "DELETE",
+    "module": "PERMISSIONS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.686Z",
+    "updatedAt": "2025-04-28T19:58:05.686Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7f2",
+    "name": "Created a new resume",
+    "apiPath": "/api/v1/resumes",
+    "method": "POST",
+    "module": "RESUMES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.688Z",
+    "updatedAt": "2025-04-28T19:58:05.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7f3",
+    "name": "Get resume by user",
+    "apiPath": "/api/v1/resumes/by-user",
+    "method": "POST",
+    "module": "RESUMES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.688Z",
+    "updatedAt": "2025-04-28T19:58:05.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7f4",
+    "name": "Fetching all resumes with pagination",
+    "apiPath": "/api/v1/resumes",
+    "method": "GET",
+    "module": "RESUMES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.688Z",
+    "updatedAt": "2025-04-28T19:58:05.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7f5",
+    "name": "Get resume by id",
+    "apiPath": "/api/v1/resumes/:id",
+    "method": "GET",
+    "module": "RESUMES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.688Z",
+    "updatedAt": "2025-04-28T19:58:05.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7f6",
+    "name": "Update resume status",
+    "apiPath": "/api/v1/resumes/:id",
+    "method": "PATCH",
+    "module": "RESUMES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.688Z",
+    "updatedAt": "2025-04-28T19:58:05.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7f7",
+    "name": "Delete resume by id",
+    "apiPath": "/api/v1/resumes/:id",
+    "method": "DELETE",
+    "module": "RESUMES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.688Z",
+    "updatedAt": "2025-04-28T19:58:05.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7f8",
+    "name": "Create a new role",
+    "apiPath": "/api/v1/roles",
+    "method": "POST",
+    "module": "ROLES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.688Z",
+    "updatedAt": "2025-04-28T19:58:05.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7f9",
+    "name": "Fetching all role with pagination",
+    "apiPath": "/api/v1/roles",
+    "method": "GET",
+    "module": "ROLES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.688Z",
+    "updatedAt": "2025-04-28T19:58:05.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7fa",
+    "name": "Get role by id",
+    "apiPath": "/api/v1/roles/:id",
+    "method": "GET",
+    "module": "ROLES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.688Z",
+    "updatedAt": "2025-04-28T19:58:05.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7fb",
+    "name": "Update role by id",
+    "apiPath": "/api/v1/roles/:id",
+    "method": "PATCH",
+    "module": "ROLES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.688Z",
+    "updatedAt": "2025-04-28T19:58:05.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7fc",
+    "name": "Delete role by id",
+    "apiPath": "/api/v1/roles/:id",
+    "method": "DELETE",
+    "module": "ROLES",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.688Z",
+    "updatedAt": "2025-04-28T19:58:05.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7fd",
+    "name": "Create a new user",
+    "apiPath": "/api/v1/users",
+    "method": "POST",
+    "module": "USERS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.689Z",
+    "updatedAt": "2025-04-28T19:58:05.689Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7fe",
+    "name": "Fetching all user with pagination",
+    "apiPath": "/api/v1/users",
+    "method": "GET",
+    "module": "USERS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.689Z",
+    "updatedAt": "2025-04-28T19:58:05.689Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede7ff",
+    "name": "Get user by id",
+    "apiPath": "/api/v1/users/:id",
+    "method": "GET",
+    "module": "USERS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.689Z",
+    "updatedAt": "2025-04-28T19:58:05.689Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede800",
+    "name": "Update user info",
+    "apiPath": "/api/v1/users/:id",
+    "method": "PATCH",
+    "module": "USERS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.689Z",
+    "updatedAt": "2025-04-28T19:58:05.689Z",
+    "__v": 0
+  },
+  {
+    "_id": "680fddcd99cf12d46fede801",
+    "name": "Delete user by id",
+    "apiPath": "/api/v1/users/:id",
+    "method": "DELETE",
+    "module": "USERS",
+    "createdBy": {
+      "_id": "680b6f9c52d64f6920662702",
+      "email": "duongducduy825@gmail.com"
+    },
+    "isDeleted": false,
+    "deletedAt": null,
+    "createdAt": "2025-04-28T19:58:05.689Z",
+    "updatedAt": "2025-04-28T19:58:05.689Z",
+    "__v": 0
+  }
+]
