@@ -1,0 +1,43 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <title>IT Việc - Job Alert</title>
+  </head>
+  <body style='font-family: Arial, sans-serif; background: #fff; color: #222;'>
+    <div style='font-size: 20px; font-weight: bold; margin-bottom: 8px;'>
+      IT Việc
+      <span style='float:right;'>Ít nhưng mà chất</span>
+    </div>
+    <p>Hi {{receiver}},</p>
+    <p>One of these jobs may be your next one. Find out today!</p>
+    <div style='margin-bottom: 24px;'>
+      {{#each jobs}}
+        <div style='margin-bottom: 20px;'>
+          <a
+            href='{{url}}'
+            target='_blank'
+            style='color: #1976d2; font-size: 16px; font-weight: bold; text-decoration: none;'
+          >{{name}}</a><br />
+          <div>
+            {{#each skills}}
+              <span style='font-size: 13px; color: #888;'>{{this}}</span><br />
+            {{/each}}
+          </div>
+          <span style='font-size: 14px; color: #444;'>{{company}}</span><br />
+          <span
+            style='font-size: 14px; color: #222; margin: 4px 0;'
+          >{{salary}}</span><br />
+        </div>
+      {{/each}}
+    </div>
+    <a
+      href='{{ctaUrl}}'
+      target='_blank'
+      style='display: inline-block; background: #e53935; color: #fff; padding: 12px 32px; border-radius: 6px; text-decoration: none; font-weight: bold; margin: 24px 0;'
+    >Xem thêm job tại IT Việc</a>
+    <div style='margin-top: 32px; color: #888; font-size: 13px;'>
+      Cheers,<br />
+      The ITviec Team
+    </div>
+  </body>
+</html>
